@@ -1,0 +1,1 @@
+insert into product(id,name,desc) values ('100','product1','product descriptions');

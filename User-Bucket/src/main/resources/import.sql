@@ -1,0 +1,1 @@
+insert into bucket(item_No,product_Id,user_id,quantity) values(1,'100','user1',5);
