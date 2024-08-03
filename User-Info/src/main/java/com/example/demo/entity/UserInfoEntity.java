@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.entity;
 
@@ -19,7 +19,7 @@ import lombok.ToString;
  *
  */
 @Entity
-@Table(name ="userinfo")
+@Table(name = "userinfo")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -27,14 +27,14 @@ import lombok.ToString;
 @ToString
 public class UserInfoEntity {
 
-	@Id
-	@Column(name ="id",unique =true)
-	private String id;
-	@Column(name ="name")
-	private String name;
-	@Column(name ="address")
-	private String address;
-	@Column(name ="email",unique =true)
-	private String email;
-	
+    @Id
+    @Column(name = "id", unique = true)
+    private String id;
+    @Column(name = "name")
+    private String name;
+    @Column(name = "address")
+    private String address;
+    @Column(name = "email", unique = true)
+    private String email;
+
 }

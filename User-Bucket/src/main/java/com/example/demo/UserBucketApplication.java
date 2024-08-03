@@ -12,18 +12,18 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 public class UserBucketApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UserBucketApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UserBucketApplication.class, args);
+    }
 
-	@Bean
-	public ModelMapper modelMapper() {
-		return new ModelMapper();
-	}
-	
-	@Bean
-	@LoadBalanced
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
+    @Bean
+    public ModelMapper modelMapper() {
+        return new ModelMapper();
+    }
+
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

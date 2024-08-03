@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.service;
 
@@ -23,13 +23,14 @@ import com.example.demo.model.Product;
 @Component
 public class ApiCallHelper {
 
-	@Autowired
-	private RestTemplate restTemplate;
-	
-	public List<Product> getProductDetails(){
-		ResponseEntity<List<Product>> products = restTemplate.exchange("http://User-Products/product", HttpMethod.GET, HttpEntity.EMPTY, new ParameterizedTypeReference<List<Product>>() {});
-		System.out.println(products);
-		return products.getBody();
-	}
-	
+    @Autowired
+    private RestTemplate restTemplate;
+
+    public List<Product> getProductDetails() {
+        ResponseEntity<List<Product>> products = restTemplate.exchange("http://User-Products/product", HttpMethod.GET, HttpEntity.EMPTY, new ParameterizedTypeReference<List<Product>>() {
+        });
+        System.out.println(products);
+        return products.getBody();
+    }
+
 }

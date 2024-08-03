@@ -10,14 +10,14 @@ import org.springframework.context.annotation.Bean;
 @EnableEurekaClient
 public class UserInfoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UserInfoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UserInfoApplication.class, args);
+    }
 
-	
-	  @Bean 
-	  public ModelMapper modelMapper() {
-		  return new ModelMapper();
-	  }
-	 
+
+    @Bean
+    public ModelMapper modelMapper() {
+        return new ModelMapper();
+    }
+
 }

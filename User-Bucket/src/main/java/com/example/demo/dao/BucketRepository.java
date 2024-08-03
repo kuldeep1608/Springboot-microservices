@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.dao;
 
@@ -17,7 +17,8 @@ import com.example.demo.entity.BucketEntity;
 @Repository
 public interface BucketRepository extends JpaRepository<BucketEntity, Integer> {
 
-	@Override
-	public List<BucketEntity> findAll() ;
-	public List<BucketEntity> findByUserId(String userId) ;
+    @Override
+    public List<BucketEntity> findAll();
+
+    public List<BucketEntity> findByUserId(String userId);
 }

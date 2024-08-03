@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.service;
 
@@ -21,24 +21,24 @@ import com.example.demo.model.Bucket;
 @Service
 public class BucketService {
 
-	@Autowired
-	private BucketRepository bucketRepo;
-	
-	@Autowired
-	private ModelMapper modelMapper;
-	
-	@Autowired
-	private ApiCallHelper apiCallHelper;
-	
-	public List<Bucket> getAllByUserId(String userId){
-		List<Bucket> items = new LinkedList<>();
-		System.out.println(userId);
-		for(BucketEntity entity : bucketRepo.findByUserId(userId)) {
-			System.out.println(entity);
-			items.add(modelMapper.map(entity, Bucket.class));
-			apiCallHelper.getProductDetails();
-		}
-		return items;
-	}
-	
+    @Autowired
+    private BucketRepository bucketRepo;
+
+    @Autowired
+    private ModelMapper modelMapper;
+
+    @Autowired
+    private ApiCallHelper apiCallHelper;
+
+    public List<Bucket> getAllByUserId(String userId) {
+        List<Bucket> items = new LinkedList<>();
+        System.out.println(userId);
+        for (BucketEntity entity : bucketRepo.findByUserId(userId)) {
+            System.out.println(entity);
+            items.add(modelMapper.map(entity, Bucket.class));
+            apiCallHelper.getProductDetails();
+        }
+        return items;
+    }
+
 }

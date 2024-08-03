@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.controller;
 
@@ -23,12 +23,12 @@ import com.example.demo.service.ProductService;
 @RequestMapping("/product")
 public class ProductController {
 
-	@Autowired
-	private ProductService productService;
-	
-	@GetMapping
-	public ResponseEntity<List<Product>> getAllProducts(){
-		List<Product> products = productService.getAll();
-		return new ResponseEntity<List<Product>>(products, HttpStatus.OK);
-	}
+    @Autowired
+    private ProductService productService;
+
+    @GetMapping
+    public ResponseEntity<List<Product>> getAllProducts() {
+        List<Product> products = productService.getAll();
+        return new ResponseEntity<List<Product>>(products, HttpStatus.OK);
+    }
 }

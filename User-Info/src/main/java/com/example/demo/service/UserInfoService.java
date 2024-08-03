@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.service;
 
@@ -23,18 +23,18 @@ import com.example.demo.entity.UserInfoEntity;
 @Transactional
 public class UserInfoService {
 
-	@Autowired
-	private UserInfoRepository userInfoRepo;
-	
-	@Autowired
-	private ModelMapper modelMapper;
-	
-	public List<UserInfo> getAll(){
-		List<UserInfoEntity> userEntities = userInfoRepo.findAll();
-		List<UserInfo> users = new ArrayList<>();
-		for(UserInfoEntity entity : userEntities) {
-			users.add(modelMapper.map(entity, UserInfo.class));
-		}
-		return users;
-	}
+    @Autowired
+    private UserInfoRepository userInfoRepo;
+
+    @Autowired
+    private ModelMapper modelMapper;
+
+    public List<UserInfo> getAll() {
+        List<UserInfoEntity> userEntities = userInfoRepo.findAll();
+        List<UserInfo> users = new ArrayList<>();
+        for (UserInfoEntity entity : userEntities) {
+            users.add(modelMapper.map(entity, UserInfo.class));
+        }
+        return users;
+    }
 }

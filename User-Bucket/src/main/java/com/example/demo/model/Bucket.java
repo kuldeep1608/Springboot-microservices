@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.model;
 
@@ -20,8 +20,8 @@ import lombok.ToString;
 @ToString
 public class Bucket {
 
-	private Integer itemNo;
-	private String productId;
-	private String userid;
-	private Integer quantity;
+    private Integer itemNo;
+    private String productId;
+    private String userid;
+    private Integer quantity;
 }

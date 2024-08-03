@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.entity;
 
@@ -24,14 +24,14 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Entity
-@Table(name ="product")
+@Table(name = "product")
 public class ProductEntity {
 
-	@Id
-	@Column(name ="id",unique =true)
-	private String id;
-	@Column(name = "name")
-	private String name;
-	@Column(name = "desc")
-	private String description;
+    @Id
+    @Column(name = "id", unique = true)
+    private String id;
+    @Column(name = "name")
+    private String name;
+    @Column(name = "desc")
+    private String description;
 }

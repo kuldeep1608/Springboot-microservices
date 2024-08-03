@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.controller;
 
@@ -24,12 +24,12 @@ import com.example.demo.service.BucketService;
 @RequestMapping("/bucket")
 public class BucketController {
 
-	@Autowired
-	private BucketService bucketService;
-	
-	@GetMapping("/{userId}")
-	public ResponseEntity<List<Bucket>> getAllByUserID(@PathVariable(value = "userId") String userId){
-		List<Bucket> items = bucketService.getAllByUserId(userId);
-		return new ResponseEntity<List<Bucket>>(items, HttpStatus.OK);
-	}
+    @Autowired
+    private BucketService bucketService;
+
+    @GetMapping("/{userId}")
+    public ResponseEntity<List<Bucket>> getAllByUserID(@PathVariable(value = "userId") String userId) {
+        List<Bucket> items = bucketService.getAllByUserId(userId);
+        return new ResponseEntity<List<Bucket>>(items, HttpStatus.OK);
+    }
 }

@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Bean;
 @EnableEurekaClient
 public class UserProductsApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UserProductsApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UserProductsApplication.class, args);
+    }
 
-	@Bean
-	public ModelMapper modelMapper() {
-		return new ModelMapper();
-	}
+    @Bean
+    public ModelMapper modelMapper() {
+        return new ModelMapper();
+    }
 }

@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.dao;
 
@@ -17,5 +17,5 @@ import com.example.demo.entity.UserInfoEntity;
 @Repository
 public interface UserInfoRepository extends JpaRepository<UserInfoEntity, String> {
 
-	public List<UserInfoEntity> findAll() ;
+    public List<UserInfoEntity> findAll();
 }

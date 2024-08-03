@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.model;
 
@@ -20,7 +20,7 @@ import lombok.ToString;
 @ToString
 public class Product {
 
-	private String id;
-	private String name;
-	private String description;
+    private String id;
+    private String name;
+    private String description;
 }

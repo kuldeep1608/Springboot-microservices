@@ -7,10 +7,10 @@ import com.example.demo.model.UserInfo;
 
 class UserInfoApplicationTests {
 
-	@Test
-	void contextLoads() {
-		
-	}
-	
+    @Test
+    void contextLoads() {
+
+    }
+
 
 }

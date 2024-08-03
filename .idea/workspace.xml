@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f08e4f86-79a2-4279-986f-5316465e7e64" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2iY7obE1XP0LDQUDLRFd4yGuG60" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f08e4f86-79a2-4279-986f-5316465e7e64" name="Default Changelist" comment="" />
+      <created>1719655832811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719655832811</updated>
+      <workItem from="1719655839286" duration="64000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1719655894054">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1719655894054" />
+    <state x="391" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1719655841600">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="391" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.720@0.0.1366.720" timestamp="1719655841600" />
+    <state x="65" y="68" key="new project wizard" timestamp="1719655896710">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="65" y="68" key="new project wizard/0.0.1366.720@0.0.1366.720" timestamp="1719655896710" />
+  </component>
+</project>

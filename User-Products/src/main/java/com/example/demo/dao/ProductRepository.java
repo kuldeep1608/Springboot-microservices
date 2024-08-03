@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.dao;
 
@@ -16,7 +16,7 @@ import com.example.demo.entity.ProductEntity;
  */
 @Repository
 public interface ProductRepository extends JpaRepository<ProductEntity, String> {
-	
-	public List<ProductEntity> findAll();
+
+    public List<ProductEntity> findAll();
 
 }

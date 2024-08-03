@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.model;
 
@@ -24,11 +24,11 @@ import lombok.ToString;
 @ToString
 public class UserInfo {
 
-	@NotEmpty
-	private String id;
-	@NotNull(message = "Name cannot be null")
-	private String name;
-	private String address;
-	@Email(message = "Email should be valid")
-	private String email;
+    @NotEmpty
+    private String id;
+    @NotNull(message = "Name cannot be null")
+    private String name;
+    private String address;
+    @Email(message = "Email should be valid")
+    private String email;
 }

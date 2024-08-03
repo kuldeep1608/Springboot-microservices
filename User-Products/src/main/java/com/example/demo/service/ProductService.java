@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.service;
 
@@ -21,17 +21,17 @@ import com.example.demo.model.Product;
 @Service
 public class ProductService {
 
-	@Autowired
-	private ProductRepository productRepo;
-	
-	@Autowired
-	private ModelMapper modelMapper;
-	
-	public List<Product> getAll(){
-		List<Product> productsList = new LinkedList<>();
-		for(ProductEntity entity : productRepo.findAll()) {
-			productsList.add(modelMapper.map(entity, Product.class));
-		}
-		return productsList;
-	}
+    @Autowired
+    private ProductRepository productRepo;
+
+    @Autowired
+    private ModelMapper modelMapper;
+
+    public List<Product> getAll() {
+        List<Product> productsList = new LinkedList<>();
+        for (ProductEntity entity : productRepo.findAll()) {
+            productsList.add(modelMapper.map(entity, Product.class));
+        }
+        return productsList;
+    }
 }

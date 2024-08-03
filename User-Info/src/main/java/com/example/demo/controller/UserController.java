@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.example.demo.controller;
 
@@ -25,12 +25,12 @@ import com.example.demo.service.UserInfoService;
 @RequestMapping("/user")
 public class UserController {
 
-	@Autowired
-	private UserInfoService userInfoService;
-	
-	@GetMapping("/{id}")
-	public ResponseEntity<List<UserInfo>> getUserInfo(@PathVariable String id){
-		List<UserInfo> users = userInfoService.getAll();
-		return new ResponseEntity<>(users, HttpStatus.OK);
-	}
+    @Autowired
+    private UserInfoService userInfoService;
+
+    @GetMapping("/{id}")
+    public ResponseEntity<List<UserInfo>> getUserInfo(@PathVariable String id) {
+        List<UserInfo> users = userInfoService.getAll();
+        return new ResponseEntity<>(users, HttpStatus.OK);
+    }
 }
